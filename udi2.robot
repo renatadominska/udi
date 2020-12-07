@@ -9,9 +9,9 @@ ${password}
 
 *** Test Cases ***
 My Test
-    Open Browser	${url} 	chrome
-	Maximize Browser Window
-	#Set Window Size    1696    1036
+    Open Browser	${url} 	headlesschrome
+	#Maximize Browser Window
+	Set Window Size    1696    1036
 	Set selenium timeout	10s
 	Input Text	logonIdentifier	${username}
 	Input Text	password	${password}
